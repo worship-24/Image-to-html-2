@@ -1,0 +1,301 @@
+/*=====login start=====*/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.login{
+	width:100%;
+	height:50px;
+	background: #121B2A;
+}
+.login-box{
+	width:80%;
+	overflow:hidden;
+	margin:auto;
+	margin-left:950px;
+}
+.button1 button{
+
+	float:left;
+	background: #FEFFFF;
+	padding:6px 10px;
+	color:#555555;
+	font-family:tahoma;
+	border:0px;
+	text-transform: uppercase;
+
+}
+
+.button2 button{
+	float:left;
+	background: #007BBB;
+	padding:6px 12px;
+	color:#fff;
+	font-family:tahoma;
+	border:0px;
+	text-transform: uppercase;
+
+}
+/*=====login end=====*/
+
+
+/*=====Header start=====*/
+.header{
+	width:100%;
+	height:60px;
+	background: #121B2A;
+}
+
+.wrapper{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+.logo{
+	width:30%;
+	float:left;
+}
+.logo img{
+	width:40%;
+	height:45px;
+	padding-bottom: -10px;
+}
+
+.menu{
+	width:70%;
+	float:left;
+}
+.menu ul{
+	text-align: right;
+	margin-top: 7px;
+
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	padding:10px;
+	text-decoration: none;
+	color: #4F5462;
+	text-transform: uppercase;
+	font-family: tahoma;
+}
+.menu ul li a:hover{
+	color: #0975BD;
+}
+
+/*========header end=======*/
+
+/*========banner start=======*/
+
+
+.banner {
+	overflow: hidden;
+	background-color: #121b2a;
+ 	box-shadow: 0px 0px 10px 10px;
+ 	background-image: url(../images/banner.jpg);
+ 	background-repeat: no-repeat;
+ 	webkit-background-size:cover;
+ 	background-size:cover;
+ 	background-position: center center;
+ 
+}
+.wrapper-bnr{
+	width:80%;
+}
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 50px;
+	margin-left: 133px;
+
+}
+.banner-content p:first-child {
+	color: white;														
+}
+.banner-content p:nth-child(2) {
+	color: #14597B;
+}
+.banner-content p:nth-child(3){
+	color: white;
+}
+.banner-content button{
+	border:0px;
+	background: #F3F4F6;
+	color:#595959;
+	padding:7px 25px;
+	border-radius:3px;
+	text-transform: uppercase;
+
+}
+
+.banner-content button i{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background: #0474BC;
+	color:white;
+}
+
+/*========banner end=======*/
+
+/*========service start=======*/
+
+.service{
+	width:100%;
+	height:400px;
+	background: #121B2A;
+	box-shadow: 0px 0px 20px 0px;
+
+}
+.wrapper-srv{
+	width:80%;
+	height:100%;
+	margin:auto;
+	overflow:hidden;
+
+}
+.service1{
+	width:30%;
+	height:80%;
+	float:left;
+	margin-top: 60px;
+	border-right: 2px groove rgba(102, 132, 155,.1);
+}
+.content p{
+	width:100%;
+	color:#A8A8A8;
+	display: inline-block;
+	padding-top: 16px;
+	margin-left: 10px;
+}
+.service2{
+	width:30%;
+	height:80%;
+	float:left;
+	margin-top: 60px;
+	border-right: 2px groove rgba(102, 132, 155,.1);
+}
+.service3{
+	width:30%;
+	height:80%;
+	float:left;
+	margin-top: 60px;
+}
+.s-logo{
+	width:30%;
+	float:left;
+	margin-top: 10px;
+}
+.caption{
+	width:70%;
+	float:left;
+	margin-top: 30px;
+	margin-left: -10px;
+}
+.service3 .caption p{
+	margin-top: 32px;
+	margin-left: -10px;
+}
+
+/*========service end=======*/
+
+/*========address start=======*/
+
+.address{
+	width:100%;
+	height:300px;
+	background: #050811;
+}
+.add-box{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+	padding-top:50px;
+}
+.box1{
+	width:30%;
+	float:left;
+}
+.box2{
+	width:30%;
+	float:left;
+	background: #0C1019;
+	position: relative;
+	border-radius:4px;
+	padding-right: -10px;
+}
+
+.box2:after{
+	content:'';
+	display:block;
+	width:0px;
+	height:0px;
+	border-top: 20px solid #0C1019;
+	border-bottom: 10px solid transparent;
+	border-left: 30px solid #0C1019;
+	border-right: 50px solid transparent;
+	position:absolute;
+	left:75%;
+	top:90%;
+}
+
+.box3{
+	width:30%;
+	float:left;
+	padding-left: 10px;
+}
+.box3 .img{
+	width:45%;
+	float:left;
+}
+.box3 .box3-inf{
+	width:45%;
+	float:left;
+	padding-top: 5px;
+}
+
+
+/*========address end=======*/
+
+/*========footer start=======*/
+.footer{
+	width:100%;
+	height:100px;
+	background: #121B2C;
+}
+.wrapper-ftr{
+	width:80%;
+	height:100%;
+	margin: auto;
+	overflow:hidden;
+}
+.footer-left{
+	width:60%;
+	float:left;
+	
+}
+.footer-left ul{
+	margin-top: 15px;
+}
+.footer-left ul li{
+	display: inline-block;
+}
+.footer-left ul li a{
+	text-decoration: none;
+	color:#878A91;
+}
+.footer-left p{
+	color:#878A91;
+	margin-top: 5px;
+}
+
+.footer-right{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-top: 10px;
+}
+
+
+/*========footer end=======*/
